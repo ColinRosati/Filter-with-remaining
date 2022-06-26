@@ -2,6 +2,9 @@
 
 Introduce a feature which additionally to filtered results, returns the unfiltered or remaining items in an array.
 
+`Array.prototype.filter(callbackFN, {remaing: true}, thisArg)]`
+`Array.prototype.filterWithRemaining()`
+
 ## Motivation
 There are times where one needs to filter results and need to handle the remaining unfiltered results for some other purposes aswell. This could be achieved, in a round about way, doing an additional iteration with the inverted filter condition. This feature would return the filtered and remaing in the same array iteration.
 
