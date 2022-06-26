@@ -21,3 +21,6 @@ Alternatively we could make a optional parameter to the `filter` method.
 ```
 const [filteredArray, remainingArray] = [1,2,3,4,5].filter( num => num % 2, {remaining: true})
 ```
+
+
+[TC39 Discussion](https://es.discourse.group/t/filter-with-remaining-array-propotype-filterwithremaining/1380)
